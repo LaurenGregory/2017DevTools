@@ -1,0 +1,22 @@
+/*
+Theme Name: Lauren's Amazing Theme
+Description: Child theme based of twentysixteen
+Author: Digitally Lauren
+Version: 1.0
+Template: twentysixteen
+*/
+
+@import url('../twentysixteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+	background-color: pink;
+}
+
+#masthead {
+	background-color: antiquewhite;
+}
+
+.entry-title {
+    font-family: 'Audiowide', cursive;
+    }

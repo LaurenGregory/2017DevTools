@@ -8,15 +8,74 @@ Template: twentysixteen
 
 @import url('../twentysixteen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-	background-color: pink;
+	background-color: #00434d;
+	font-family: 'Nunito', sans-serif;
+	color: #ffffff;
 }
 
 #masthead {
-	background-color: antiquewhite;
+	background-color: #00434d;
+	color: #ffffff;
+}
+
+.menu-toggle {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+
+.menu-toggle:hover, .menu-toggle:focus {
+	background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #fff;
 }
 
 .entry-title {
     font-family: 'Audiowide', cursive;
     }
+
+.entry-title a {
+    color: #ffffff;
+}
+
+.site-branding .site-title a {
+    color: #ffffff;
+    font-family: 'Audiowide', cursive;
+	}
+
+.main-navigation a {
+    color: #ffffff;
+	}
+
+.site-content {
+    background-color: #00434d;
+	}
+
+a {
+    color: #ad906f;
+	}
+
+.entry-title a {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.site-description {
+    color: #ad906f;
+    font-size: 1rem;
+   }
+
+textarea {
+    background: antiquewhite;
+    }
+
+.site-footer {
+    background-color: #00434d;
+	}
+
+.widget {
+    border-top: 1px solid #1a1a1a;
+	}

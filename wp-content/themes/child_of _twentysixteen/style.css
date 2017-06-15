@@ -21,6 +21,23 @@ body {
 	color: #ffffff;
 }
 
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #ad906f;
+}
+
+.content-area {
+    width: 100%;
+}
+
+.entry-header, .post-thumbnail, .entry-content, .entry-summary, .entry-footer, .comments-area, .image-navigation, .post-navigation, .pagination, .page-header, .page-content, .content-bottom-widgets {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.main-navigation a:hover, .main-navigation a:focus {
+    color: #ad906f;
+}
+
 .menu-toggle {
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -71,6 +88,11 @@ a {
 textarea {
     background: antiquewhite;
     }
+
+ .entry-content h3, .entry-summary h3, .comment-content h3 {
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
 
 .site-footer {
     background-color: #00434d;
